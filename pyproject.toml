@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apex-zero-loop"
+version = "0.1.0"
+description = "Sub-Millisecond Zero-Iteration Agent Verification and Hoare Logic Kernel in Pure Python"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "AAH20"}
+]
+keywords = [
+    "formal-verification",
+    "hoare-logic",
+    "weakest-precondition",
+    "symbolic-execution",
+    "sat-solver",
+    "ai-agents",
+    "code-generation",
+    "hermes",
+    "zero-iteration"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Compilers",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.scripts]
+apex-zero-loop = "apex_zero_loop.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["apex_zero_loop*"]
