@@ -7,6 +7,8 @@
 [![Dependencies: Zero](https://img.shields.io/badge/Dependencies-Zero%20(Pure%20Stdlib)-success.svg)](pyproject.toml)
 [![Tests: 100% Pass](https://img.shields.io/badge/Tests-18%2F18%20Passing-brightgreen.svg)](tests/)
 
+`ai-agents` • `agentic-ai` • `formal-verification` • `guardrails` • `llm-safety` • `infinite-loop` • `hoare-logic` • `autonomous-agents` • `runtime-verification` • `langgraph` • `crewai` • `autogen` • `python` • `zero-dependency`
+
 ---
 
 ## 1. System Architecture
